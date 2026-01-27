@@ -48,9 +48,3 @@ visitor_count %>%
   group_by(site) %>%
   summarise(mean_visitors = mean(visitors), median_visitors = median(visitors), sd_visitors = sd(visitors), min_visitors = min(visitors), max_visitors = max(visitors), n = n())
             
-
-
-
-
-
-
